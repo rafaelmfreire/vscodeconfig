@@ -1,0 +1,59 @@
+{
+    // "workbench.statusBar.visible": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        },
+        {
+        "before": ["k", "k"],
+        "after": ["<Esc>", "A", ";", "<Esc>"]
+        },
+        {
+        "before": ["J", "J"],
+        "after": ["<Esc>", "A"]
+        },
+        {
+        "before": ["j", "l"],
+        "after": ["<Esc>", "l", "a"]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before": ["<leader>", "j"],
+            "after": ["^", "D", "a"]
+        },
+        {
+            "before": ["<leader>", "<leader>"],
+            "after": ["/"]
+        },
+        {
+            "before": ["<leader>", ";"],
+            "after": ["A", ";", "<Esc>"]
+        },
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-w>": false,
+        "<C-d>": false,
+        "<C-b>": false,
+    },
+    "workbench.colorTheme": "Slime",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.associations": {
+        "*.blade.php": "blade",
+        "*.php": "php",
+    },
+    "workbench.settings.editor": "json",
+    "editor.snippetSuggestions": "top",
+    "emmet.triggerExpansionOnTab": true,
+    "blade.format.enable": true,
+    "terminal.integrated.rendererType": "dom",
+}
