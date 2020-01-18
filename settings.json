@@ -38,12 +38,18 @@
             "before": ["<leader>", ";"],
             "after": ["A", ";", "<Esc>"]
         },
+        {
+            "before": ["<leader>", "o"],
+            "after": ["d", "d", "O"]
+        },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
         "<C-w>": false,
         "<C-d>": false,
         "<C-b>": false,
+        "<C-j>": false,
+        "<C-o>": false,
     },
     "workbench.colorTheme": "Slime",
     "workbench.iconTheme": "material-icon-theme",
@@ -56,4 +62,30 @@
     "emmet.triggerExpansionOnTab": true,
     "blade.format.enable": true,
     "terminal.integrated.rendererType": "dom",
+    "editor.fontFamily": "'JetBrains Mono', 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "relative",
+    "editor.lineHeight": 30,
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "boundary",
+    "workbench.sideBar.location": "right",
+    "php.suggest.basic": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+
+        // Hide everything in /public, except "index.php"
+        "**/public/[abcdefghjklmnopqrstuvwxyz]*": true,
+        "**/public/i[abcdefghijklmopqrstuvwxyz]*": true,
+
+        // Hide everything in /vendor, except "laravel" folder.
+        "**/vendor/[abcdefghijkmnopqrstuvwxyz]*": true,
+        "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
+
+        "storage/framework/views": true
+    },
+    "editor.formatOnPaste": true
+    
 }
+
