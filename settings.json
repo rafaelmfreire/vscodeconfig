@@ -43,6 +43,10 @@
             "before": ["<leader>", "o"],
             "after": ["d", "d", "O"]
         },
+        {
+            "before": ["<leader>", "p"],
+            "after": ["o", "<Esc>", "p"]
+        },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
@@ -88,6 +92,7 @@
     },
     "editor.formatOnPaste": true,
     "window.openFilesInNewWindow": "on",
+    "window.zoomLevel": 0,
     
 }
 
