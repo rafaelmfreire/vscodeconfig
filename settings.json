@@ -6,46 +6,111 @@
     "editor.minimap.enabled": false,
     "vim.insertModeKeyBindings": [
         {
-        "before": ["j", "j"],
-        "after": ["<Esc>"]
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         },
         {
-        "before": ["k", "k"],
-        "after": ["<Esc>", "A", ";", "<Esc>"]
+            "before": [
+                "k",
+                "k"
+            ],
+            "after": [
+                "<Esc>",
+                "A",
+                ";",
+                "<Esc>"
+            ]
         },
         {
-        "before": ["J", "J"],
-        "after": ["<Esc>", "A"]
+            "before": [
+                "J",
+                "J"
+            ],
+            "after": [
+                "<Esc>",
+                "A"
+            ]
         },
         {
-        "before": ["j", "l"],
-        "after": ["<Esc>", "l", "a"]
+            "before": [
+                "j",
+                "l"
+            ],
+            "after": [
+                "<Esc>",
+                "l",
+                "a"
+            ]
         },
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": ["<leader>", "d"],
-            "after": ["d", "d"]
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
         },
         {
-            "before": ["<leader>", "j"],
-            "after": ["^", "D", "a"]
+            "before": [
+                "<leader>",
+                "j"
+            ],
+            "after": [
+                "^",
+                "D",
+                "a"
+            ]
         },
         {
-            "before": ["<leader>", "<leader>"],
-            "after": ["/"]
+            "before": [
+                "<leader>",
+                "<leader>"
+            ],
+            "after": [
+                "/"
+            ]
         },
         {
-            "before": ["<leader>", ";"],
-            "after": ["A", ";", "<Esc>"]
+            "before": [
+                "<leader>",
+                ";"
+            ],
+            "after": [
+                "A",
+                ";",
+                "<Esc>"
+            ]
         },
         {
-            "before": ["<leader>", "o"],
-            "after": ["d", "d", "O"]
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "after": [
+                "d",
+                "d",
+                "O"
+            ]
         },
         {
-            "before": ["<leader>", "p"],
-            "after": ["o", "<Esc>", "p"]
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "after": [
+                "o",
+                "<Esc>",
+                "p"
+            ]
         },
     ],
     "vim.leader": "<space>",
@@ -79,20 +144,17 @@
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
-
         // Hide everything in /public, except "index.php"
         "**/public/[abcdefghjklmnopqrstuvwxyz]*": true,
         "**/public/i[abcdefghijklmopqrstuvwxyz]*": true,
-
         // Hide everything in /vendor, except "laravel" folder.
         "**/vendor/[abcdefghijkmnopqrstuvwxyz]*": true,
         "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
-
         "storage/framework/views": true
     },
     "editor.formatOnPaste": true,
     "window.openFilesInNewWindow": "on",
     "window.zoomLevel": 0,
-    
+    "editor.formatOnSave": true,
+    "editor.scrollBeyondLastLine": true,
 }
-
