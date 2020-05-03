@@ -158,4 +158,5 @@
     "window.zoomLevel": 0,
     // "editor.formatOnSave": true,
     "editor.scrollBeyondLastLine": true,
+    "workbench.startupEditor": "newUntitledFile",
 }
