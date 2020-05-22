@@ -159,4 +159,5 @@
     // "editor.formatOnSave": true,
     "editor.scrollBeyondLastLine": true,
     "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "onWindowChange",
 }
