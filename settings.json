@@ -1,157 +1,85 @@
 {
+    // "explorer.openEditors.visible": 1,
+
     "workbench.colorTheme": "SynthWave '84",
-    "vim.useCtrlKeys": false,
-    "workbench.editor.showTabs": false,
-    "explorer.openEditors.visible": 0,
-    "workbench.activityBar.visible": false,
-    "editor.minimap.enabled": false,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "j",
-                "j"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        },
-        {
-            "before": [
-                "k",
-                "k"
-            ],
-            "after": [
-                "<Esc>",
-                "A",
-                ";",
-                "<Esc>"
-            ]
-        },
-        {
-            "before": [
-                "J",
-                "J"
-            ],
-            "after": [
-                "<Esc>",
-                "A"
-            ]
-        },
-        {
-            "before": [
-                "j",
-                "l"
-            ],
-            "after": [
-                "<Esc>",
-                "l",
-                "a"
-            ]
-        },
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<leader>",
-                "d"
-            ],
-            "after": [
-                "d",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "j"
-            ],
-            "after": [
-                "^",
-                "D",
-                "a"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "<leader>"
-            ],
-            "after": [
-                "/"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                ";"
-            ],
-            "after": [
-                "A",
-                ";",
-                "<Esc>"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "o"
-            ],
-            "after": [
-                "d",
-                "d",
-                "O"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "p"
-            ],
-            "after": [
-                "o",
-                "<Esc>",
-                "p"
-            ]
-        },
-    ],
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-        "<C-w>": false,
-        "<C-d>": false,
-        "<C-b>": false,
-        "<C-j>": false,
-        "<C-o>": false,
-    },
-    "files.associations": {
-        "*.blade.php": "blade",
-        "*.php": "php",
-    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.showTabs": "single",
+    "workbench.activityBar.location": "hidden",
     "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "right",
+    // "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000"
+    },
+
+    "editor.minimap.enabled": false,
     "editor.snippetSuggestions": "top",
-    "emmet.triggerExpansionOnTab": true,
-    "editor.fontFamily": "'JetBrains Mono', 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrains Mono'",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.lineNumbers": "relative",
     "editor.lineHeight": 36,
     "editor.cursorBlinking": "solid",
-    "workbench.sideBar.location": "right",
-    "php.suggest.basic": false,
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        // Hide everything in /public, except "index.php"
-        "**/public/[abcdefghjklmnopqrstuvwxyz]*": true,
-        "**/public/i[abcdefghijklmopqrstuvwxyz]*": true,
-        // Hide everything in /vendor, except "laravel" folder.
-        "**/vendor/[abcdefghijkmnopqrstuvwxyz]*": true,
-        "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
-        "storage/framework/views": true
-    },
     "editor.formatOnPaste": true,
-    "window.openFilesInNewWindow": "on",
-    "window.zoomLevel": 0,
-    "editor.scrollBeyondLastLine": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "files.autoSave": "onWindowChange",
+    "editor.formatOnSave": true,
+    "editor.tabCompletion": "on",
+    // "editor.scrollBeyondLastColumn": 0,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "text.html"
+                    // "text.html.derivative",
+                    // "source.vue",
+                ],
+                "settings": {
+                    "foreground": "#FFFFFF",
+                }
+            },
+            {
+                "scope": [
+                    "variable"
+                ],
+                "settings": {
+                    "foreground": "#f55",
+                }
+            },
+            {
+                "scope": [
+                    // "entity.other.attribute-name.html"
+                    "storage.type",
+                    "keyword.control",
+                    "keyword.operator",
+                    
+                ],
+                "settings": {
+                    "foreground": "#0c0",
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.section.embedded.begin.php",
+                    "punctuation.section.embedded.end.php",
+                ],
+                "settings": {
+                    "foreground": "#c00",
+                }
+            },
+
+        ]
+    },
+
+    "emmet.triggerExpansionOnTab": true,
+    
+    "vim.useCtrlKeys": false,
+    "vim.easymotion": true,
+    "vim.leader": "<space>",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+
+    // "php.suggest.basic": false,
 }
