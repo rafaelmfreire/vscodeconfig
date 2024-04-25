@@ -1,3 +1,6 @@
+cat extensions-vscode.txt | xargs -L1 code --install-extension
+Get-Content extensions-vscode.txt | ForEach-Object { code --install-extension $_ }
+
 eliverlara.andromeda
 bradlc.vscode-tailwindcss
 esbenp.prettier-vscode
@@ -6,3 +9,4 @@ bmewburn.vscode-intelephense-client
 sleistner.vscode-fileutils
 patbenatar.advanced-new-file
 pkief.material-icon-theme
+vscodevim.vim
