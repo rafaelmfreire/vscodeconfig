@@ -1,0 +1,9 @@
+{
+	"tag php": {
+		"prefix": "php",
+		"body": [
+			"<?php $1; ?>"
+		],
+		"description": "Insert tag php"
+	}
+}
