@@ -1,7 +1,7 @@
 {
     // "explorer.openEditors.visible": 1,
 
-    "workbench.colorTheme": "SynthWave '84",
+    "workbench.colorTheme": "Andromeda Bordered",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.showTabs": "single",
     "workbench.activityBar.location": "hidden",
@@ -9,9 +9,10 @@
     "workbench.sideBar.location": "right",
     // "workbench.startupEditor": "newUntitledFile",
     "workbench.colorCustomizations": {
-        "editor.background": "#000000"
+        "editor.background": "#000000",
     },
 
+    "terminal.integrated.lineHeight": 1.5,
     "editor.minimap.enabled": false,
     "editor.snippetSuggestions": "top",
     "editor.fontFamily": "'JetBrains Mono'",
@@ -36,35 +37,35 @@
                     "foreground": "#FFFFFF",
                 }
             },
-            {
-                "scope": [
-                    "variable"
-                ],
-                "settings": {
-                    "foreground": "#f55",
-                }
-            },
-            {
-                "scope": [
-                    // "entity.other.attribute-name.html"
-                    "storage.type",
-                    "keyword.control",
-                    "keyword.operator",
+            // {
+            //     "scope": [
+            //         "variable"
+            //     ],
+            //     "settings": {
+            //         "foreground": "#f55",
+            //     }
+            // },
+            // {
+            //     "scope": [
+            //         // "entity.other.attribute-name.html"
+            //         "storage.type",
+            //         "keyword.control",
+            //         "keyword.operator",
                     
-                ],
-                "settings": {
-                    "foreground": "#0c0",
-                }
-            },
-            {
-                "scope": [
-                    "punctuation.section.embedded.begin.php",
-                    "punctuation.section.embedded.end.php",
-                ],
-                "settings": {
-                    "foreground": "#c00",
-                }
-            },
+            //     ],
+            //     "settings": {
+            //         "foreground": "#0c0",
+            //     }
+            // },
+            // {
+            //     "scope": [
+            //         "punctuation.section.embedded.begin.php",
+            //         "punctuation.section.embedded.end.php",
+            //     ],
+            //     "settings": {
+            //         "foreground": "#c00",
+            //     }
+            // },
 
         ]
     },
