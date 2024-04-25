@@ -1,0 +1,8 @@
+eliverlara.andromeda
+bradlc.vscode-tailwindcss
+esbenp.prettier-vscode
+vue.volar
+bmewburn.vscode-intelephense-client
+sleistner.vscode-fileutils
+patbenatar.advanced-new-file
+pkief.material-icon-theme
