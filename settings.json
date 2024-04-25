@@ -9,10 +9,14 @@
     "workbench.sideBar.location": "right",
     // "workbench.startupEditor": "newUntitledFile",
     "workbench.colorCustomizations": {
-        "editor.background": "#000000",
+        "editor.background": "#090916",
+        "terminal.background": "#000000",
+        "editorCursor.foreground": "#0f0",
+        "editorCursor.background": "#000"
     },
 
     "terminal.integrated.lineHeight": 1.5,
+
     "editor.minimap.enabled": false,
     "editor.snippetSuggestions": "top",
     "editor.fontFamily": "'JetBrains Mono'",
@@ -75,6 +79,104 @@
     "vim.useCtrlKeys": false,
     "vim.easymotion": true,
     "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "k",
+                "k"
+            ],
+            "after": [
+                "<Esc>",
+                "A",
+                ";",
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "J",
+                "J"
+            ],
+            "after": [
+                "<Esc>",
+                "A"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "l"
+            ],
+            "after": [
+                "<Esc>",
+                "l",
+                "a"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "after": [
+                "/"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "b"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "w"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                ";"
+            ],
+            "after": [
+                "A",
+                ";",
+                "<Esc>"
+            ]
+        },
+    ],
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
