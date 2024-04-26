@@ -22,6 +22,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.tabCompletion": "on",
+    "editor.linkedEditing": true,
     // "editor.scrollBeyondLastColumn": 0,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
