@@ -1,8 +1,4 @@
 {
-    // "explorer.openEditors.visible": 1,
-
-    "workbench.colorTheme": "Andromeda Bordered",
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.showTabs": "single",
     "workbench.activityBar.location": "hidden",
     "workbench.settings.editor": "json",
@@ -14,9 +10,7 @@
         "editorCursor.foreground": "#0f0",
         "editorCursor.background": "#000"
     },
-
     "terminal.integrated.lineHeight": 1.5,
-
     "editor.minimap.enabled": false,
     "editor.snippetSuggestions": "top",
     "editor.fontFamily": "'JetBrains Mono'",
@@ -55,7 +49,6 @@
             //         "storage.type",
             //         "keyword.control",
             //         "keyword.operator",
-                    
             //     ],
             //     "settings": {
             //         "foreground": "#0c0",
@@ -70,15 +63,19 @@
             //         "foreground": "#c00",
             //     }
             // },
-
         ]
     },
-
     "emmet.triggerExpansionOnTab": true,
-    
     "vim.useCtrlKeys": false,
     "vim.easymotion": true,
     "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-w>": false,
+        "<C-d>": false,
+        "<C-b>": false,
+        "<C-j>": false,
+        "<C-o>": false,
+    },
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -183,6 +180,5 @@
     "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
-
     // "php.suggest.basic": false,
 }
