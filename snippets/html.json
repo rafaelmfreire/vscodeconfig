@@ -5,5 +5,21 @@
 			"<?php $1; ?>"
 		],
 		"description": "Insert tag php"
-	}
+	},
+	"named slot": {
+		"prefix": "slot",
+		"body": [
+			"<slot name=\"$1\" />",
+		],
+		"description": "Default template for slot"
+	},
+	"template slot": {
+		"prefix": "vslot",
+		"body": [
+			"<template v-slot:$1>",
+			"\t$2",
+			"</template>",
+		],
+		"description": "Default template for tempalte slot"
+	},
 }
