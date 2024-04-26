@@ -10,3 +10,4 @@ sleistner.vscode-fileutils
 patbenatar.advanced-new-file
 pkief.material-icon-theme
 vscodevim.vim
+formulahendry.auto-rename-tag
